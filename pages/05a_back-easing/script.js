@@ -11,6 +11,8 @@ const updateIndicator = (target) => {
   const width = tabBounds.width;
   const offset = tabBounds.left - rowBounds.left;
 
+
+
   gsap.to(indicator, {
     x: offset,
     width: width,
